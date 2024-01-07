@@ -1,9 +1,9 @@
 # NoUniqueBuildings Mod for Cities Skylines II
 
+**Unlimited unique buildings for your town**
+
 This mod allows you to create as many unique buildings as you want.
 It is currently in the BETA phase and therefore only supports signature buildings.
-
-**Then this mod is just right for you.**
 
 ## Updates
 
