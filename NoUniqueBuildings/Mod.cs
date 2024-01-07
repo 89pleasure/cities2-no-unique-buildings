@@ -25,14 +25,13 @@ namespace NoUniqueBuildings
 
         public void OnCreateWorld(UpdateSystem updateSystem)
         {
-            Log.Info("Add system to world.");
-            UnityEngine.Debug.Log("Add system to world.");
-            updateSystem.UpdateAt<NoUniqueBuildingsSystem>(SystemUpdatePhase.GameSimulation);
+            UnityEngine.Debug.Log("[NoUniqueBuildings]: Add system to world.");
+            updateSystem.UpdateAt<NoUniqueBuildingsSystem>(SystemUpdatePhase.ModificationEnd);
         }
 
         public void OnDispose()
         {
-            Log.Info("Mod disposed.");
+            UnityEngine.Debug.Log("[NoUniqueBuildings]: Mod disposed.");
             Instance = null;
         }
     }

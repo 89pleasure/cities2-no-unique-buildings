@@ -19,15 +19,15 @@ namespace NoUniqueBuildings
             Mod = new Mod();
             Mod.OnLoad();
 
-            Mod.Log.Info("Loading Harmony patches.");
+            UnityEngine.Debug.Log("[NoUniqueBuildings]: Loading Harmony patches.");
 
             var harmony = Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), MyPluginInfo.PLUGIN_GUID + "_Cities2Harmony");
             var patchedMethods = harmony.GetPatchedMethods().ToArray();
 
-            Mod.Log.Info($"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded! Patched methods " + patchedMethods.Length);
+            UnityEngine.Debug.Log($"[NoUniqueBuildings]: Plugin {MyPluginInfo.PLUGIN_GUID} is loaded! Patched methods " + patchedMethods.Length);
             foreach (var patchedMethod in patchedMethods)
             {
-                Mod.Log.Info($"Patched method: {patchedMethod.Module.Name}:{patchedMethod.Name}");
+                UnityEngine.Debug.Log($"[NoUniqueBuildings]: Patched method: {patchedMethod.Module.Name}:{patchedMethod.Name}");
             }
         }
     }

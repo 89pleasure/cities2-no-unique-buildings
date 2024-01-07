@@ -8,11 +8,11 @@ using Unity.Entities;
 
 namespace NoUniqueBuildings.Jobs
 {
-    struct UpdateSignatureBuildingsQuery
+    struct ResetSignatureBuildingsQuery
     {
         public EntityQueryDesc[] Query;
 
-        public UpdateSignatureBuildingsQuery()
+        public ResetSignatureBuildingsQuery()
         {
             Query = [
                 new()
@@ -34,7 +34,7 @@ namespace NoUniqueBuildings.Jobs
         }
     }
 
-    public struct UpdateSignatureBuildingsTypeHandle
+    public struct ResetSignatureBuildingsTypeHandle
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void AssignHandles(ref SystemState state)
@@ -49,7 +49,7 @@ namespace NoUniqueBuildings.Jobs
         public ComponentLookup<PlaceableObjectData> PlaceableObjectDataLookup;
     }
 
-    public struct UpdateSignatureBuildingsJob : IJobChunk
+    public struct ResetSignatureBuildingsJob : IJobChunk
     {
         public EntityTypeHandle EntityHandle;
         public ComponentLookup<PlaceableObjectData> PlaceableObjectDataLookup;
@@ -65,7 +65,7 @@ namespace NoUniqueBuildings.Jobs
             {
                 Entity entity = entities[i];
                 PlaceableObjectData placeableObjectData = PlaceableObjectDataLookup[entity];
-                placeableObjectData.m_Flags &= ~Game.Objects.PlacementFlags.Unique;
+                placeableObjectData.m_Flags |= Game.Objects.PlacementFlags.Unique;
                 PlaceableObjectDataLookup[entity] = placeableObjectData;
             }
         }

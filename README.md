@@ -9,12 +9,10 @@ It is currently in the BETA phase and therefore only supports signature building
 
 ## Features:
 - Create as many unique buildings as you want
-- Currently only supports signature buildings
 
 ## Important Information:
 - **The mod is currently in the BETA phase - so problems can therefore occur**
 - **The mod is currently activated globally for all your cities!**
-- **It has an impact on your savegame and can possibly break your city**
 
 ## Requirement
 - [BepInEx v5](https://thunderstore.io/c/cities-skylines-ii/p/BepInEx/BepInExPack/)
