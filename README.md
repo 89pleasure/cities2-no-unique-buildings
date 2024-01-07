@@ -3,7 +3,7 @@
 **Unlimited unique buildings for your town**
 
 This mod allows you to create as many unique buildings as you want.
-It is currently in the BETA phase and therefore only supports signature buildings.
+It is currently in the BETA phase and therefore could break game mechanics.
 
 ## Updates
 
@@ -36,7 +36,7 @@ Join our discord community: [https://discord.gg/M9rgRtGcRa](https://discord.gg/M
 - Thanks to **captain_on_coit** for HookUI and help with JSX and React
 
 ## Special thanks to:
-- **Susanne**, **Bruceyboy24804**, **Woovie**, **Rebecca** and **mad** for their testing and feedback
+- **Susanne**, **Bruceyboy24804**, **Uckie**, **Woovie**, **Rebecca** and **mad** for their testing and feedback
 
 ## License:
 - This mod is subject to the GNU license. Please read the license terms before using the mod.
