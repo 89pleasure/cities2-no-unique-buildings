@@ -22,10 +22,6 @@ It is currently in the BETA phase and therefore only supports signature building
 ## Mod manager installation
 I do recommend using the [Thunderstore.io mod manager](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager) , or [r2modman](https://thunderstore.io/package/ebkr/r2modman/) for Game Pass users
 
-## Manual installation
-Simply download the latest release from the [releases page](https://github.com/89pleasure/cities2-realistic-density/releases)
-and extract it to your `Cities Skylines II /bepinex/plugins` folder.
-
 ## Compile
 1. Create a copy of GlobalProperties.props.dist
 2. Rename it to GlobalProperties.props										
