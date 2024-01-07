@@ -1,47 +1,20 @@
-# RealisticDensity Mod for Cities Skylines II
+# NoUniqueBuildings Mod for Cities Skylines II
 
-Have you always been annoyed that you have to build such large industrial areas? Or that your business takes up almost as much space as your residential areas?
-Why a power plant only has 10 employees or a high school with 2000 students only employs a handful of teachers?
+This mod allows you to create as many unique buildings as you want.
+It is currently in the BETA phase and therefore only supports signature buildings.
 
 **Then this mod is just right for you.**
 
 ## Updates
-- **v0.10.0 Added support for more city buildings**
-	- Public Transportation
-	- Maintenance Depots
-	- Transport Depots
-	- Prisons
-	- Deathcare Facilities
-	- Garbage Facilities
-	- Post Facilities
-- **v0.9.1 Fix spawnables job infinite loop log spam**
-- **v0.9.0 Fix save game serialization**
-- **v0.8.0 Failed attempt to fix serialization (sorry)**
-- **v0.7.0 High density office fix**
-	- Fixes support for high density office buildings
-	- Adjusted the employee numbers for high density office buildings
 
 ## Features:
-- Increased employee numbers for Commercial, Industrial, and Office zones
-- Increased employee numbers for service buildings such as schools, hospitals, clinics, power plants, police, fire stations, cargo train terminals, and harbors
-- Employee numbers of existing buildings remain unchanged
-- Higher difficulty level due to increased worker and cargo traffic and demand for well planned public transport routes
-- More storages will fill your industry zones and create a more realistic and diverse look
-- More crowded city streets and more traffic
-
-## Planned Features:
-- Add UI to change the intensity of the mod
-- Increased numbers for high density residential buildings
-- Increased employee numbers for public transport buildings
-- Increased employee numbers for unique buildings
+- Create as many unique buildings as you want
+- Currently only supports signature buildings
 
 ## Important Information:
 - **The mod is currently in the BETA phase - so problems can therefore occur**
 - **The mod is currently activated globally for all your cities!**
 - **It has an impact on your savegame and can possibly break your city**
-- This mod has an impact on the performance of the game (by design)
-- It is recommended to use the mod in a new city
-- However, it is possible to use the mod in an existing city, as it does not alter the employee numbers of already existing buildings
 
 ## Requirement
 - [BepInEx v5](https://thunderstore.io/c/cities-skylines-ii/p/BepInEx/BepInExPack/)
@@ -74,4 +47,4 @@ Join our discord community: [https://discord.gg/M9rgRtGcRa](https://discord.gg/M
 ## License:
 - This mod is subject to the GNU license. Please read the license terms before using the mod.
 
-**Thank you for using the RealisticDensity Mod!**
+**Thank you for using the NoUniqueBuildings Mod!**

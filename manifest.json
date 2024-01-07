@@ -2,7 +2,7 @@
   "name": "NoUniqueBuildings",
   "version_number": "0.1.0",
   "website_url": "https://github.com/89pleasure/cities2-no-unique-buildings",
-  "description": "Unlimited unique buildings.",
+  "description": "Limitless unique buildings placement.",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2100"
   ]
