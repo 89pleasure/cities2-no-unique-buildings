@@ -36,7 +36,7 @@ Join our discord community: [https://discord.gg/M9rgRtGcRa](https://discord.gg/M
 - Thanks to **captain_on_coit** for HookUI and help with JSX and React
 
 ## Special thanks to:
-- **Susanne**, **Bruceyboy24804**, **Uckie**, **Woovie**, **Rebecca** and **mad** for their testing and feedback
+- **Susanne**, **Bruceyboy24804**, **Uecki**, **Woovie**, **Rebecca** and **mad** for their testing and feedback
 
 ## License:
 - This mod is subject to the GNU license. Please read the license terms before using the mod.
