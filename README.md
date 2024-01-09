@@ -6,8 +6,8 @@ This mod allows you to create as many unique buildings as you want.
 It is currently in the BETA phase and therefore could break game mechanics.
 
 ## Updates
-v0.2.0 - Added support for more unique buildings (Central Intelligence Bureau, City Hall, etc.)
-v0.1.0 - Initial release
+- v0.2.0 - Added support for more unique buildings (Central Intelligence Bureau, City Hall, etc.)
+- v0.1.0 - Initial release
 
 ## Features:
 - Create as many unique buildings as you want
