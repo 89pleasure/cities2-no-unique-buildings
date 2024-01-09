@@ -21,7 +21,11 @@ namespace NoUniqueBuildings.Jobs
                     [
                         ComponentType.ReadOnly<BuildingData>(),
                         ComponentType.ReadWrite<PlaceableObjectData>(),
+                    ],
+                    Any =
+                    [
                         ComponentType.ReadOnly<SignatureBuildingData>(),
+                        ComponentType.ReadOnly<UniqueObjectData>(),
                     ],
                     None =
                     [
