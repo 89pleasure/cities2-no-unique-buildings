@@ -1,6 +1,6 @@
 {
   "name": "NoUniqueBuildings",
-  "version_number": "0.1.0",
+  "version_number": "0.2.0",
   "website_url": "https://github.com/89pleasure/cities2-no-unique-buildings",
   "description": "Limitless unique buildings placement.",
   "dependencies": [
